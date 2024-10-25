@@ -6,7 +6,7 @@
 	"data": [
 		{
 			"name": "Blog Truyện Mới",
-			"author": "vBook",
+			"author": "tam.lh",
 			"path": "https://raw.githubusercontent.com/hoangtam0910/tam-vbook/master/blogtruyenmoi/plugin.zip",
 			"version": 2,
 			"type": "comic",
