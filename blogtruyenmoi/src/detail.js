@@ -2,14 +2,14 @@ load('config.js');
 
 function execute(url) {
     // url = url.replace(/^(?:https?:\/\/)?(?:[^@\n]+@)?(?:www\.)?([^:\/\n?]+)/img, BASE_URL);
-    url = url.replace('blogtruyenmoi.com', 'm.blogtruyen.vn');
+    url = url.replace('blogtruyenmoi.com', 'blogtruyen.vn');
     let response = fetch(url);
     if (response.ok) {
         let doc = response.html();
         doc.select(".fb-page").remove();
         let author = doc.select("a[href*=/tac-gia/]").first().text();
         return Response.success({
-            name: doc.select("title").text().replace(/\s*\|\s*m.blogtruyen.vn/, ""),
+            name: doc.select("title").text().replace(/\s*\|\s*blogtruyen.com/, ""),
             cover: doc.select(".thumbnail img").first().attr("src"),
             host: BASE_URL,
             author: author,
