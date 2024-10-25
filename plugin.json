@@ -1,0 +1,19 @@
+{
+	"metadata": {
+		"author": "tam.lh",
+		"description": ""
+	},
+	"data": [
+		{
+			"name": "Blog Truyện Mới",
+			"author": "vBook",
+			"path": "https://raw.githubusercontent.com/hoangtam0910/tam-vbook/master/blogtruyenmoi/plugin.zip",
+			"version": 2,
+			"type": "comic",
+			"locale": "vi_VN",
+			"source": "https://m.blogtruyen.vn",
+			"icon": "https://raw.githubusercontent.com/hoangtam0910/tam-vbook/master/blogtruyen/icon.png",
+			"description": "Đọc truyện trên trang Blog Truyện"
+		}
+	]
+}
