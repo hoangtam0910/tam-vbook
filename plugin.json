@@ -5,10 +5,10 @@
 	},
 	"data": [
 		{
-			"name": "Blog Truyện Mới",
+			"name": "Blog Truyện Mới - By tamlh",
 			"author": "tam.lh",
 			"path": "https://raw.githubusercontent.com/hoangtam0910/tam-vbook/master/blogtruyenmoi/plugin.zip",
-			"version": 2,
+			"version": 1,
 			"type": "comic",
 			"locale": "vi_VN",
 			"source": "https://m.blogtruyen.vn",
